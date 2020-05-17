@@ -1,0 +1,29 @@
+{
+  "name": "faas-test",
+  "version": "1.0.0",
+  "description": "FaaS-Test is a collection of functions to test FaaS code for resource usage issues. It can be used during unit or integration testing and may be included when deploying a function to a FaaS provider.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lukasklinger/faas-test.git"
+  },
+  "author": "Lukas Klinger <lukas.klinger@gmail.com> (https://lukasklinger.com)",
+  "license": "MIT",
+  "bugs": "https://github.com/lukasklinger/faas-test/issues",
+  "homepage": "https://github.com/lukasklinger/faas-test",
+  "keywords": [
+    "faas",
+    "aws lambda",
+    "testing",
+    "testing framework"
+  ],
+  "engines": {
+    "node": ">= 10.0.0"
+  },
+  "devDependencies": {
+    "jest": "^25.3.0"
+  }
+}
