@@ -8,7 +8,7 @@ To use FaaS-Test, follow the instructions below.
 Import the module at the beginning of your code.
 
 ```javascript
-const faas = require('faas');
+const faas = require('faas-test');
 ```
 
 ### Available Functions
